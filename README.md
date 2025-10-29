@@ -26,6 +26,7 @@ Durante nosso projeto usamos o estilo de micro-serviços para a implementação.
   * Serviço de Notificação
   * Serviço de Contatos
   * Serviço de Imagens
+  * Serviço de Grupos
 
 ### Padrão Arquitetural
 Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
@@ -38,4 +39,24 @@ Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
     *  Temos as lógicas de négocio
     *  Integrações com as API's
     *  Integração com os serviços de mensageria do RabbitMQ
+## Componentes e DDD
+
+
+### Front-End
+  * Desenvolvido em React para as funcionalidades WEB
+  * Desenvolvido em Flutter para as funcionalidades Mobile
+  * Aplições responsivas
+  * Comunicação via requisições HTTP
+### Back-End
+  * Desenvolvido em Node.js
+  * Utilização do RabbitMQ para serviço de mensagens
+  * Utilização do Docker junto do LibreTranslate para a tradução de mensagens
+  * Utililzação do Tessaract para OCR (Optical Character Recognition)
+### Componentes
+  * Componente de Login/Cadastro
+  * Componente de Contatos
+  * Componente de Perfil
+  * Componente de Chat
+  * Componente de Envio de Imagem
+  * Componente de Grupos
     
