@@ -98,6 +98,25 @@ Usamos o MongoDB, para armazenamento e persistência dos dados da aplicação co
     * Email
     * Senha
     * Telefone
+
+## Escalabilidade
+### Microsserviços independentes em Node.js
+→ Permitem que cada função (mensagens, tradução, grupos) cresça de forma isolada, sem afetar o restante do sistema.
+
+### Mensageria com Apache Kafka
+→ Garante processamento assíncrono e distribuição equilibrada da carga em picos de uso.
+
+### Banco PostgreSQL com replicação e particionamento
+→ Mantém alta performance e integridade mesmo com grandes volumes de dados e acessos simultâneos.
+
+### Infraestrutura com containers e CI/CD
+→ Facilita o aumento automático de capacidade (auto-scaling) e atualizações contínuas sem interrupções.
+
+### OpenTelemetry e monitoramento distribuído
+→ Acompanha métricas e gargalos em tempo real, permitindo ajustes imediatos para manter estabilidade.
+
+### Design modular e expansível
+→ Suporte fácil a novos idiomas, recursos de tradução e acessibilidade, sem reescrever o sistema.
    
  ## Monitoramento e Observabilidade
  ### Logs
