@@ -39,24 +39,30 @@ Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
     *  Temos as lógicas de négocio
     *  Integrações com as API's
     *  Integração com os serviços de mensageria do RabbitMQ
-## Componentes e DDD
+
+### Desenho da Arquitetura
+
+### Fluxo do Projeto (Fluxograma)
 
 
-### Front-End
-  * Desenvolvido em React para as funcionalidades WEB
-  * Desenvolvido em Flutter para as funcionalidades Mobile
-  * Aplições responsivas
-  * Comunicação via requisições HTTP
-### Back-End
-  * Desenvolvido em Node.js
-  * Utilização do RabbitMQ para serviço de mensagens
-  * Utilização do Docker junto do LibreTranslate para a tradução de mensagens
-  * Utililzação do Tessaract para OCR (Optical Character Recognition)
-### Componentes
-  * Componente de Login/Cadastro
-  * Componente de Contatos
-  * Componente de Perfil
-  * Componente de Chat
-  * Componente de Envio de Imagem
-  * Componente de Grupos
-    
+## Fundamentos Visuais, Tipografia e Wireframes
+
+
+
+## Padrões de Comunicação
+
+### RabbitMQ
+
+### LibreTranslate
+
+### Tesseract
+
+## Persistência e Banco de Dados
+Usamos o MongoDB, para armazenamento e persistência dos dados da aplicação como : 
+  * Dados do Usário
+    * Nome
+    * Email
+    * Senha
+    * Telefone
+
+ 
