@@ -54,10 +54,9 @@ Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
 
 <a name="wireframes"></a>
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
+> Um wireframe web é uma ilustração semelhante ao
 > layout de elementos fundamentais na interface.
+Eles não apenas definem a estrutura e a arquitetura da informação de cada tela, mas também servem como a primeira validação de como os nossos componentes e padrões do Design System como botões, campos de input e layouts serão organizados para criar uma experiência de usuário coesa e intuitiva.
 
 #### Landing Page
 
