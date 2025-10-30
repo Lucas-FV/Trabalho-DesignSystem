@@ -50,6 +50,38 @@ Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
 
 ## Fundamentos Visuais, Tipografia e Wireframes
 
+### Wireframes
+
+<a name="wireframes"></a>
+
+> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+> estrutura de um site web e seu relacionamentos entre suas
+> páginas. Um wireframe web é uma ilustração semelhante ao
+> layout de elementos fundamentais na interface.
+
+#### Landing Page
+
+<img width="1920" height="1080" alt="LandingPage" src="https://github.com/user-attachments/assets/d9f75491-d4e7-4a7c-b203-36b7f615ab94" />
+
+
+#### SignIn Page
+
+<img width="1920" height="1080" alt="SignInPage" src="https://github.com/user-attachments/assets/418bb25c-6dff-4ebf-8297-60043e057e29" />
+
+
+#### Perfil Page
+
+<img width="1920" height="1080" alt="PerfilPage" src="https://github.com/user-attachments/assets/709ed9dc-52e8-4fa5-8268-a10a40b3dd31" />
+
+
+#### Chat Page
+
+<img width="1920" height="1081" alt="ChatPage" src="https://github.com/user-attachments/assets/6cd0d41f-f1a2-426b-b99b-67ec1cd25ee5" />
+
+
+#### Contacto Page
+
+<img width="1920" height="1081" alt="ContactsPage-1" src="https://github.com/user-attachments/assets/53d56aa3-d240-427a-bf3b-532c92065409" />
 
 
 ## Padrões de Comunicação
