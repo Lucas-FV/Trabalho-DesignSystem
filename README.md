@@ -42,8 +42,11 @@ Para a implementação do nosso projeto usamos o padrão MVC, onde temos:
 
 ### Desenho da Arquitetura
 
+<img width="1580" height="887" alt="Diagrama em branco" src="https://github.com/user-attachments/assets/ad999af9-bf63-47b9-99a5-38d6cf8bbb42" />
+
 ### Fluxo do Projeto (Fluxograma)
 
+<img width="1792" height="1040" alt="Fluxograma Fluid" src="https://github.com/user-attachments/assets/f5965ca9-c95c-48d8-a01e-0be460c18dbe" />
 
 ## Fundamentos Visuais, Tipografia e Wireframes
 
