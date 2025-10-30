@@ -64,5 +64,45 @@ Usamos o MongoDB, para armazenamento e persistência dos dados da aplicação co
     * Email
     * Senha
     * Telefone
+   
+ ## Monitoramento e Observabilidade
+ ### Logs
+ * Console logging com console.log e console.error
+ * Logs de operações críticas: WebSocket, mensagens, erros de autenticação
+ * Rastreamento de fluxo: Entrada/saída de mensagens, estados de conexão
+ * Logs de debug para traduções e comunicação em tempo real
 
- 
+ ### Saúde da Aplicação
+ * Verificação via middleware de autenticação JWT
+ * Validação de banco através de operações nos models User e Message
+ * Monitoramento de conexões WebSocket ativas
+ * Status de serviços RabbitMQ e MongoDB via uso operacional
+
+ ### Métricas Existentes
+ * Contagem de mensagens não lidas por conversa
+ * Status de usuários online/offline
+ * Contagem de conexões WebSocket ativas
+ * Métricas de tradução (sucessos/falhas)
+
+ ## Manutenibilidade
+ ### Estrutura
+ * Separação em camadas: Routes → Controllers → Services → Models
+ * Módulos especializados: usuários, mensagens, conversas, tradução
+ * Injeção de dependências via módulos CommonJS
+
+### Organização
+* Controllers: Orquestração de requests/responses HTTP
+* Services: Lógica de negócio centralizada
+* Models: Abstração de dados MongoDB
+* Middleware: Autenticação e validação
+
+### Testabilidade Estrutural
+* Serviços independentes com responsabilidades únicas
+* Funções puras em serviços de tradução e utilitários
+* Baixo acoplamento entre domínios diferentes
+
+### Manutenção Prática
+* Error handling consistente em todos os controllers
+* Validação centralizada em middleware dedicado
+* Separação clara entre lógica WebSocket e REST API
+* Reuso de serviços entre diferentes rotas e funcionalidades
